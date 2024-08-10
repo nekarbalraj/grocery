@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <script src="./login.js"></script>
     <style>
         #nvbar{
             border: 1px solid black;
@@ -13,7 +14,7 @@
     </style>
 </head>
 <body style="margin:0px;">
-    <header style="display:flex; justify-content:center">
+    <header style="display:flex; justify-content:center;margin-bottom:15px;">
         <nav id="nvbar"style="display:flex; justify-content:space-between; ">
             <img src="./logo.jpeg" alt="" style="margin-left:20px;">
             <p style="margin-top:auto;margin-bottom: auto;margin-right:20px;">Kirani Shop</p>
@@ -25,17 +26,17 @@
             <p>Login</p>
             <div style="display:flex; justify-content:space-between">
                 <div style="width: 30%;"><label for="ph">Phone Number: </label></div>
-                <input type="text" name="" id="ph"style="width:70%;">
+                <input type="text"  id="ph"style="width:70%;">
             </div>
             <br>
             <div style="display:flex; justify-content:space-between">
                 <div style="width: 30%;"><label for="ph">Name : </label></div>
-                <input type="text" name="" id="ph"style="width:70%;">
+                <input type="text"  id="NM"style="width:70%;">
             </div>
             <br>
             <div style="display:flex; justify-content:space-between">
                 <div style="width: 30%;"><label for="ph">Password : </label></div>
-                <input type="password" name="" id="ph"style="width:70%;">
+                <input type="password"  id="Pwd"style="width:70%;">
             </div>
             <br>
             
@@ -43,6 +44,7 @@
                 <button type="submit"style="margin-right:5px;">Login</button>
                 <button type="reset"style="margin-left:5px;">Reset</button>
             </div>
+            <p>New user <a href="" target="_top" onclick="signup()" >SignUp?</a></p>
         </form>
     </div>
 </body>
