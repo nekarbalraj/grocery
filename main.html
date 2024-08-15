@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Billing System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        
+        .profile-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .logo {
+            width: 45px;
+            height: 40px;
+            border-radius: 25%;
+        }
+    </style>
+</head>
+<body style="margin:0px;">
+ 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+           
+            <a class="navbar-brand" href="./main.html"> <img src="./logo.jpeg" alt="Profile" class="logo">Kirani Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link "  href="#">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div style="margin-right: 5px;"><form class="d-flex me-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form></div>
+                
+                <a href="./cart.html" class="btn btn-primary me-3">Go to Cart</a>
+                <a href=""><img src="./profile.png" alt="Profile" class="profile-img"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card h-100 ">
+                    <div class="card-head">
+                        <img src="./item page/surf-excel.jpg" class="card-img-top img-fluid h-60" alt="Item 1">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Surf Excel</h5>
+                        <p class="card-text">Price: ₹10</p>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Quantity</span>
+                            <input type="number" class="form-control" min="1" value="1">
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-head">
+                        <img src="./item page/surf-excel.jpg" class="card-img-top img-fluid h-60" alt="Item 1">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Item 2</h5>
+                        <p class="card-text">Price: ₹15</p>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Quantity</span>
+                            <input type="number" class="form-control" min="1" value="1">
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-head h-60">
+                        <img src="item3.jpg" class="card-img-top h-60" alt="Item 3">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Item 3</h5>
+                        <p class="card-text">Price: ₹20</p>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Quantity</span>
+                            <input type="number" class="form-control" min="1" value="1">
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
